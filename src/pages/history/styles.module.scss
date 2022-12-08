@@ -1,0 +1,158 @@
+.content {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.roseContent {
+  @extend .content;
+
+  background-color: var(--rose);
+}
+
+.yellowContent {
+  @extend .content;
+
+  background-color: var(--yellow);
+}
+
+.image25 {
+  width: 25%;
+}
+
+.image50 {
+  width: 50%;
+}
+
+.header {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--white);
+}
+
+.imageContentWrapper {
+  display: flex;
+}
+
+.text {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--white);
+}
+
+.trippleBoxWrapper {
+  color: var(--white);
+  display: flex;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.singleBoxWrapper {
+  flex: 1;
+}
+
+.doubleBoxWrapper {
+  flex: 1;
+}
+
+.box {
+  border-radius: 23px;
+  margin-bottom: 10px;
+  background-color: var(--yellow);
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.box2 {
+  padding: 65px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 {
+  padding: 26px 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+
+  text-align: center;
+}
+
+.featuresOfMythology {
+  display: flex;
+  color: var(--white);
+  flex-direction: row;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+}
+
+.featuresOfMythologyHeader {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+
+  margin-top: 36px;
+}
+
+.finalContent {
+  position: relative;
+}
+
+.finalTextWrapper {
+  position: absolute;
+  bottom: 30px;
+  padding: 0 70px;
+}
+
+.finalText {
+  color: var(--white);
+  background-color: var(--yellow);
+  text-align: center;
+  border-radius: 23px;
+  padding: 60px 50px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}

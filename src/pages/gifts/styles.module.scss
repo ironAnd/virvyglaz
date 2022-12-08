@@ -1,0 +1,49 @@
+.header {
+  color: var(--white);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  background-color: var(--rose);
+  padding: 50px 0 60px;
+}
+
+.item {
+  color: var(--white);
+  display: flex;
+  background-color: var(--yellow);
+  padding: 80px 140px;
+  gap: 60px;
+}
+
+.imgWrapper {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.imgWrapper>img {
+  width: auto;
+}
+
+.itemHeader {
+  color: var(--light-yellow);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.itemText {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}

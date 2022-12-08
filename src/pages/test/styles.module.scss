@@ -1,0 +1,96 @@
+.content {
+  padding: 75px 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.testContent {
+  @extend .content;
+
+  background-color: var(--rose);
+}
+
+.header {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--white);
+  text-align: center;
+}
+
+.imgWrapper {
+  padding: 0 200px;
+}
+
+.questionsWrapper {
+  padding: 0 240px;
+  width: 100%;
+  color: var(--white);
+}
+
+.questionWrapper {
+  padding: 40px;
+  border: 5px solid var(--yellow);
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.questionHeading {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--yellow);
+  margin-bottom: 20px;
+}
+
+.questionsBlock {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.label {
+  margin-left: 10px;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 145px;
+  background-color: var(--yellow);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  color: var(--white);
+}
+
+.modalImg {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.modalHeading {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+
+.modalText {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.modalCloseBtn {
+  background-color: var(--rose);
+}

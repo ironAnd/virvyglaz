@@ -1,0 +1,19 @@
+:root {
+  --white: #fff;
+  --rose: #b42db4;
+  --yellow: #a69911;
+  --green: #4ca489;
+  --light-yellow: #fffa86;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
